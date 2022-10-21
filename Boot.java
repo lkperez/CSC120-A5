@@ -4,6 +4,12 @@
  * @author R. Jordan Crouser + CSC120 (Fall '22))
  * @version 13 October 2022
  */
+
+  /**
+     * Making boots for the scarecrow
+     * @param direction
+     * @return the display of the left and right boot
+     */
 public class Boot {
   
     private String direction;
@@ -19,8 +25,10 @@ public class Boot {
     public void display() {
         if (this.direction.equals("left")) {
           System.out.println("Left boot?");
+          System.out.println("             |_____|");
         } else if (this.direction.equals("right")) {
           System.out.println("Right boot?");
+          System.out.println("             |_____|");
         } else {
           System.out.println("Which boot?");
         }
