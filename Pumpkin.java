@@ -4,6 +4,12 @@
  * @author R. Jordan Crouser + CSC120 (Fall '22))
  * @version 13 October 2022
  */
+
+  /**
+     * Making the pumpkin(head) thats goes on the scarecrow
+     * @param none
+     * @return the display of the pumpkin 
+     */
 public class Pumpkin {
     
     /*
@@ -14,11 +20,11 @@ public class Pumpkin {
         System.out.println("              ___");
         System.out.println("           ___)__|_");
         System.out.println("      .-*'          '*-,");
-        System.out.println("     /      /|   |\\     \\ ");
-        System.out.println("    ;      /_|   |_\\     ;");
-        System.out.println("    ;   |\\           /|  ;");
-        System.out.println("    ;   | ''--...--'' |  ;");
-        System.out.println("     \\  ''---.....--''  /");
+        System.out.println("     /      /\\   /\\    \\ ");
+        System.out.println("    ;      /__\\ /__\\    ;");
+        System.out.println("    ;      ----------    ;");
+        System.out.println("    ;                    ;");
+        System.out.println("     \\     |_______|    / ");
         System.out.println("     ''*-.,_______,.-*'  ");  
 
     }
